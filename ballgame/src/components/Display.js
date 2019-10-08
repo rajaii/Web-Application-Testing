@@ -60,13 +60,13 @@ function Display(props) {
     return (
         <FlexDiv>
             <StrikeDiv>
-                <StrikeP>{props.stats.strikes}</StrikeP>
+                <StrikeP>Strikes: {props.stats.strikes}</StrikeP>
             </StrikeDiv>
             <BallDiv>
-                <BallP>{props.stats.balls}</BallP>
+                <BallP>Balls: {props.stats.balls}</BallP>
             </BallDiv>
             <BatterDiv>
-                <BatterP>{props.stats.atBat}</BatterP>
+                <BatterP>At bat: {props.stats.atBat}</BatterP>
             </BatterDiv>
         </FlexDiv>
     )

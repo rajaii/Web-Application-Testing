@@ -72,10 +72,10 @@ handleSelect = e => {
         return (
             <div>
                 <div>
-                <button onClick={this.handleStrike}>Strike</button>
-                <button onClick={this.handleBall}>Ball</button>
-                <button onClick={this.handleFoul}>Foul</button>
-                <button onClick={this.handleSelect}>Select new</button>
+                <button data-testid="strike" onClick={this.handleStrike}>Strike</button>
+                <button data-testid="ball" onClick={this.handleBall}>Ball</button>
+                <button data-testid="foul" onClick={this.handleFoul}>Foul</button>
+                <button data-testid="select-new-player" onClick={this.handleSelect}>Select new player</button>
                 </div>
                 <Display stats={this.state} />
             </div>
